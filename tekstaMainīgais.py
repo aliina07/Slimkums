@@ -10,7 +10,7 @@ y = '5'  # ar pēdiņām - teksts
 print(type(y))  # type() funkcija datu tipa noteikšanai
 
 vards = "Anna"
-uzvards = "Bērziņa"  # Starp pēdiņām var liktb dažādus simbolus tajā skaitā ar mīkstinājumu un garumzīmēm
+uzvards = "Bērziņa"  # Starp pēdiņām var likt dažādus simbolus tajā skaitā ar mīkstinājumu un garumzīmēm
 
 print(vards)
 print(uzvards)
