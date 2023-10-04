@@ -1,3 +1,20 @@
-pirmais = {'atsl1':'vert1', 'atsl2':'vert2'}
+#Alīna
+#Saprovska
+#02.10.2023
+#tuples un seta mainīgie
 
-print(pirmais)
+t=(1,2,3)
+funkcija=(len(t))
+
+print(t)
+print(funkcija)
+
+t[1]
+print()
+
+
+
+count(t)
+
+print(count)
+
