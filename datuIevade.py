@@ -11,3 +11,4 @@ Konsolē
 vards = input()
 
 print("Sveika, " + vards + "!")
+
