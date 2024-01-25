@@ -9,3 +9,4 @@ x = 5.4 # x -  mainīgā nosaukums, 5.4 - vērtība
 x = 'a'
 
 print(x)
+

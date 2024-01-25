@@ -2,9 +2,7 @@
 Informācija
 """
 
-pirmais = {'atsl1':'vertiba1'
-,
-'atsl2':'vertiba2'}
+pirmais = {'atsl1':'vertiba1','atsl2':'vertiba2'}
 
 print(pirmais)
 #Izvadīt konkrētu vērtību, tā tiek pēc atslēgas
