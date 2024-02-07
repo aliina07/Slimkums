@@ -1,0 +1,40 @@
+"""
+Teksta dokumentu atvēršana un nolasīšana(txt formāts)
+
+"""
+
+#1. atvēršanas veids
+
+fails = open("lasit.txt","r",encoding="UTF-8") #r= lasīšanas stāvoklis  "UTF-8 prikš specifisku simnolu nolasīšanas
+print(fails.read())   #faila satura lasīšana
+fails.close()
+
+
+#2. atvēršanas veids
+
+with open("lasit.txt","r",encoding="UTF-8") as fails:
+    print(fails.read())
+
+
+
+#faila rindas lasīšana
+
+with open("lasit.txt","r",encoding="UTF-8") as fails:
+    print(fails.readlines())   #['Šodien ir trešdiena.\n', ' Drīz beigsies stundas.']  "\n" pārnešana jaunā rindā
+
+
+#IZveidot jauna teksta faila veidošana
+    
+
+jaunsFails = open("JuansIzmeginajumaFails.txt","w",encoding="UTF-8")    
+jaunsFails.write("Sanāca izveidot jaunu failu, juhuuuuuu")
+saturs = "Ieprikš sagatavota teksta saglabāšana teksta failā"
+jaunsFails.write(saturs)
+saturs2 = [" vards, vecums, skola"]
+jaunsFails.writelines(saturs2)
+
+jaunsFails.close()
+
+
+
+ 
