@@ -35,15 +35,17 @@ if izvele == "/":
 
 
 while True:
-    jautajums = input("Vai veiksim turpmākās darbības? (Jā/Nē):")
-    print(len(jautajums)) 
+    jautajums = input("Vai veiksim turpmākās darbības? (Jā/Nē): ")
+    print(len(jautajums))
 
-    if len(jautajums) >= "Jā"
-        break 
+    if len(jautajums) >= "Jā":
+        break
     else:
-         print("Prieks palīdzēt!")
+        print("Prieks palīdzēt!")
 
- print("Prieks palīdzēt!")
+print("Turpināt")
+
+         
 
 
 
