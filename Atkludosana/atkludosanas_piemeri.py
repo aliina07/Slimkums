@@ -38,4 +38,6 @@ for i in range(1, len(skaitli)):
   if skaitli[i] > skaitli[lielIndex]:
     lielIndex = i
 
+#mainīgās vērtības ievietošana teksta
+#f
 print(f"Lielakais skaitlis: {skaitli[lielIndex]} ar indeksu {lielIndex}')
