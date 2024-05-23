@@ -11,13 +11,15 @@ def next_even_number(n):
               return 
       else:
               return n + 1
+
       
 def next_even_number(n):
       if n % 2 == 0:
               return n + 2
       else:
-              return n + 1      
- 
+              return n + 1
+print(next_even_number)
+
 #Atrodi kļūdas, izlabo. Pievieno labotu kodu un aprakstu, kas bija jāmaina
 #Atbilde - Iepriekšējais kods nedarbojās pareizi, jo, ievadītais skaitlis bija pāra skaitlis, tad tika atgriezts tas pats skaitlis, nevis nākamais pāra skaitlis. Labotajā kodā izmainīju atgriezamo vērtību, lai ievadītais skaitlis ir pāra skaitlis, tad tiek atgriezts nākamais pāra skaitlis pēc dotā skaitļa.
 
@@ -245,7 +247,7 @@ def validate_phone_number(phone_number):
     if len(phone_number) == 10 and phone_number.isdigit():
         return True
     else:
-        return False    
+        return Faprint(validate_phone_number)    
  
 #Atrodi kļūdas, izlabo. Pievieno labotu kodu un aprakstu, kas bija jāmaina
 #Arbilde - len (phone_number) == 10: Parbauda, vai telefona numura garums ir precizi 10 cipari. phone_number.isdigit(): Parbauda, vai telefona numurs sastāv tikai no cipariem, izmantojot metodes isdigit izsaukumu ar iekavăm.
